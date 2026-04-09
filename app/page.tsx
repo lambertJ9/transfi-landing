@@ -295,7 +295,101 @@ export default function HomePage() {
       <section className="section">
         <div className="container">
           <div className="cta">
-            <h2 className="heading-lg" style={{ marginTop: 0 }}>
+            <h2 className="heading-lg" style={{ marginTop: 0 }}> 
+              <section className="section">
+  <div className="container">
+    <div style={{ maxWidth: 900, marginBottom: 32 }}>
+      <div
+        style={{
+          fontSize: 13,
+          letterSpacing: "0.2em",
+          textTransform: "uppercase",
+          color: "#7dd3fc",
+          fontWeight: 700,
+        }}
+      >
+        Platform capabilities
+      </div>
+
+      <h2 className="heading-lg">
+        Build escrow-style transactions on top of Transfi
+      </h2>
+
+      <p className="muted">
+        Transfi enables you to design advanced financial flows such as escrow,
+        milestone payments, and conditional releases — without building payment
+        infrastructure from scratch.
+      </p>
+    </div>
+
+    <div className="grid-2">
+      <div className="card" style={{ padding: 24 }}>
+        <h3>Advanced escrow architecture</h3>
+        <ul className="muted" style={{ marginTop: 12 }}>
+          <li>Payment collection via Transfi</li>
+          <li>Payouts across borders</li>
+          <li>Multi-currency and crypto rails</li>
+        </ul>
+
+        <div style={{ marginTop: 16 }}>
+          <strong>Then build internally:</strong>
+          <ul className="muted">
+            <li>Escrow wallet logic</li>
+            <li>Conditional release engine</li>
+            <li>Admin dispute management</li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="card" style={{ padding: 24 }}>
+        <h3>How it works</h3>
+        <ol className="muted" style={{ marginTop: 12 }}>
+          <li>Buyer pays into your platform wallet</li>
+          <li>Funds are locked internally (escrow logic)</li>
+          <li>Conditions met → release payment</li>
+        </ol>
+      </div>
+    </div>
+
+    <div className="card" style={{ padding: 32, marginTop: 32 }}>
+      <h3 style={{ marginTop: 0 }}>Best approach for your growth</h3>
+
+      <div className="grid-2" style={{ marginTop: 16 }}>
+        <div>
+          <strong>Start with:</strong>
+          <ul className="muted">
+            <li>Transfi payments + payouts</li>
+            <li>Simple wallet-based flow</li>
+          </ul>
+        </div>
+
+        <div>
+          <strong>Scale into:</strong>
+          <ul className="muted">
+            <li>Custom escrow logic</li>
+            <li>Hybrid financial architecture</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div style={{ marginTop: 40 }}>
+      <h3>Real-world use cases</h3>
+
+      <div className="grid-3" style={{ marginTop: 20 }}>
+        {[
+          "Rent-to-own property payments",
+          "Freelancer milestone payments",
+          "Car marketplace transactions",
+        ].map((item) => (
+          <div key={item} className="card" style={{ padding: 20 }}>
+            {item}
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
               Ready to launch Transfi.app the right way?
             </h2>
             <p className="muted" style={{ maxWidth: 760, margin: "0 auto" }}>
