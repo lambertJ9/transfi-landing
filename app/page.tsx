@@ -17,7 +17,7 @@ const steps = [
   "Create your account",
   "Verify your identity",
   "Fund your wallet",
-  "Send money confidently",
+  "Send money ",
 ];
 
 export default function HomePage() {
@@ -107,7 +107,9 @@ export default function HomePage() {
                       <div style={{ color: "#94a3b8", fontSize: 14 }}>
                         Available balance
                       </div>
-                      <div style={{ fontSize: 36, fontWeight: 700 }}>
+                      <div style={{ fontSize: 36, fontWeight: 700 }}> <p className="muted" style={{ fontSize: 20, maxWidth: 720 }}>
+  Send, receive, and manage global payments with a secure, scalable fintech platform.
+</p>
                         $12,480.00
                       </div>
                     </div>
@@ -176,7 +178,7 @@ export default function HomePage() {
 
       <section id="features" className="section">
         <div className="container">
-          <div style={{ maxWidth: 760, marginBottom: 32 }}>
+          <div style={{ maxWidth: 720, marginBottom: 32 }}>
             <div
               style={{
                 fontSize: 13,
@@ -200,7 +202,7 @@ export default function HomePage() {
           <div className="grid-3">
             {features.map((feature) => (
               <div key={feature.title} className="card feature-card">
-                <h3 style={{ fontSize: 24, margin: 0 }}>{feature.title}</h3>
+                <h3 style={{ fontSize: 20, margin: 0 }}>{feature.title}</h3>
                 <p className="muted" style={{ marginTop: 12 }}>
                   {feature.desc}
                 </p>
@@ -294,7 +296,39 @@ export default function HomePage() {
 
       <section className="section">
         <div className="container">
-          <div className="cta">
+          <div className="cta"> 
+            {/* INVESTOR SECTION (ADD HERE) */}
+<section className="section">
+  <div className="container">
+    <h2 className="heading-lg">Built for investors and partners</h2>
+
+    <div className="grid-3" style={{ marginTop: 24 }}>
+      <div className="card" style={{ padding: 24 }}>
+        <h3>Massive market</h3>
+        <p className="muted">
+          Cross-border payments and fintech infrastructure represent a multi-trillion dollar opportunity.
+        </p>
+      </div>
+
+      <div className="card" style={{ padding: 24 }}>
+        <h3>Scalable model</h3>
+        <p className="muted">
+          Revenue grows with transaction volume, FX spreads, and future API monetization.
+        </p>
+      </div>
+
+      <div className="card" style={{ padding: 24 }}>
+        <h3>Expansion ready</h3>
+        <p className="muted">
+          Designed to scale into escrow systems, crypto rails, and global payout infrastructure.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{/* EXISTING CTA BELOW */}
+<section className="section">
             <h2 className="heading-lg" style={{ marginTop: 0 }}> 
               <section className="section">
   <div className="container">
