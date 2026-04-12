@@ -1,39 +1,3 @@
-export default function TransfiLandingPage() {
-  const features = [
-    {
-      title: "Global Transfers",
-      desc: "Fast, reliable international payments for people and businesses.",
-    },
-    {
-      title: "Compliance First",
-      desc: "Designed with KYC, AML, and operational trust at the core.",
-    },
-    {
-      title: "Built to Scale",
-      desc: "A strong foundation for wallets, payouts, and escrow-style workflows.",
-    },
-  ];
-
-  const steps = [
-    "Create account",
-    "Verify identity",
-    "Fund wallet",
-    "Send or release payment",
-  ];
-
-  const investorCards = [
-    {
-      title: "Large market",
-      desc: "Cross-border payments and marketplace infrastructure remain a major global opportunity.",
-    },
-    {
-      title: "Flexible revenue",
-      desc: "Monetize through transaction fees, FX spreads, and future platform services.",
-    },
-    {
-      title: "Expansion path",
-      desc: "Grow from payments into milestone releases, escrow flows, and partner APIs.",
-    },
   ];
 
   const useCases = [
