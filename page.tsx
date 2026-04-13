@@ -298,7 +298,7 @@ export default function Home() {
       <hr style={{ border:"none", borderTop:`1px solid ${t.border}`, maxWidth:960, margin:"0 auto" }}/>
 
       {/* INVESTORS */}
-      <section id="investors" style={{ padding:"5rem 2.5rem" }}>
+      <section id="investors" style={{ padding:"3rem 2.5rem" }}>
         <div style={{ maxWidth:960, margin:"0 auto" }}>
           <div className="reveal" ref={el => addReveal(el as HTMLElement, 5)} style={{ textAlign:"center", maxWidth:640, margin:"0 auto 3.5rem" }}>
             <div style={{ fontSize:11, fontWeight:600, color:"#1D9E75", letterSpacing:".1em", textTransform:"uppercase", marginBottom:".75rem" }}>Investor view</div>
@@ -334,7 +334,7 @@ export default function Home() {
       <hr style={{ border:"none", borderTop:`1px solid ${t.border}`, maxWidth:960, margin:"0 auto" }}/>
 
       {/* TRUST */}
-      <section style={{ padding:"5rem 2.5rem", background:t.bg2 }}>
+      <section style={{ padding:"3rem 2.5rem", background:t.bg2 }}>
         <div style={{ maxWidth:960, margin:"0 auto" }}>
           <div className="reveal" ref={el => addReveal(el as HTMLElement, 7)} style={{ textAlign:"center", maxWidth:640, margin:"0 auto 3.5rem" }}>
             <div style={{ fontSize:11, fontWeight:600, color:"#1D9E75", letterSpacing:".1em", textTransform:"uppercase", marginBottom:".75rem" }}>Trust & security</div>
